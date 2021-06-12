@@ -14,7 +14,7 @@ function divide(a, b = 1) {
 }
 
 function multiply(a = 0, b = 1) {
-  return Number((a * b).toPrecision(5).toString());
+  return Number((a * b).toPrecision(10).toString());
 }
 
 // The following is required to make unit tests work. Please ignore it.
